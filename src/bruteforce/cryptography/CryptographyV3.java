@@ -1,6 +1,8 @@
 package bruteforce.cryptography;
 
-public class CryptographyV2 {
+import java.util.Arrays;
+
+public class CryptographyV3 {
     public static void main(String[] args) {
         int[] numbers = {1,2,3};
         long result = encrypt(numbers);
@@ -12,16 +14,13 @@ public class CryptographyV2 {
     }
     public static long encrypt(int[] numbers){
 
-        long min = numbers[0]; //+1했을때 가장 효용이 크게 늘어나는 것은 결국 최솟값을 선택하는 것이다.
-        for (int i = 1; i < numbers.length; i++) {
-            min = Math.min(min, numbers[i]);
-        }
+        Arrays.sort(numbers);
+        numbers[0]++;
 
-        long max = min+1;
+        long max =1;
         for (int i = 0; i < numbers.length; i++) {
             max*=numbers[i];
         }
-        max/=min;
         return max;
     }
 }
