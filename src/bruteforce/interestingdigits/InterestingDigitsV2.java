@@ -13,6 +13,8 @@ public class InterestingDigitsV2 {
         for (int i = 0; i < digits2.length; i++) {
             if(digits2[i]==1) System.out.print(i + " , ");
         }
+
+
     }
     public static int[] digits(int base){
         int[] answer = new int[base];
