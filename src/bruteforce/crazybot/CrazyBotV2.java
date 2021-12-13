@@ -28,13 +28,13 @@ public class CrazyBotV2 {
 
         GRID[x][y] = true;
 
-        for (boolean[] booleans : GRID) {
-            for (boolean aBoolean : booleans) {
-                if(aBoolean) System.out.println();
-                System.out.print(aBoolean);
+        for (int i = 0; i < GRID.length; i++) {
+            for (int j = 0; j < GRID.length; j++) {
+                if(GRID[i][j]) System.out.print("[" + i + " , " + j + "]");
             }
             System.out.println();
         }
+
         double ret = 0;
         for (int i = 0; i < 4; i++) {
             ret += dfs(x+VX[i], y+VY[i], n-1 ) * PROBABILITY[i];
