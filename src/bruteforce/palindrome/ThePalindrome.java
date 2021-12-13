@@ -3,6 +3,7 @@ package bruteforce.palindrome;
 public class ThePalindrome {
     public static void main(String[]args){
         System.out.println(find("abab"));
+        System.out.println(find("abab"));
         System.out.println(find("abdfhdyrbdbsdfghjkllkjhgfds"));
 
     }
