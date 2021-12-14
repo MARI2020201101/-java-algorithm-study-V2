@@ -37,6 +37,7 @@ public class CrazyBotV2 {
         double ret = 0;
         for (int i = 0; i < 4; i++) {
             ret += dfs(x+VX[i], y+VY[i], n-1 ) * PROBABILITY[i];
+            System.out.println("ret : " +ret);
         }
         GRID[x][y] = false;
 
