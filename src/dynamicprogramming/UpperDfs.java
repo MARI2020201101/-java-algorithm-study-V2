@@ -17,6 +17,7 @@ public class UpperDfs {
             for (int l = 0; l <= j; l++) {
                 if(k!=0) memo[k][l] += memo[k-1][l];
                 if(l!=0) memo[k][l] += memo[k][l-1];
+                //해당 점으로 가는 경우의 수는 . 왼쪽에서 온 경우의 수 + 오른쪽에서 온 경우의 수를 합친 것과 같다.
             }
         }
     }
