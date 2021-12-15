@@ -1,11 +1,11 @@
 package dynamicprogramming;
 
-public class Knapsack {
+public class KnapsackV3 {
 
     public static void main(String[] args) {
         int knapsack = knapsack(0, 0, 0);
-        System.out.println(knapsack); //뭔가. 한번 더 간듯??
-        System.out.println("counter : " + counter); //카운터는 똑같은데. 값이 한번 더들간다? 왜다르지?
+        System.out.println(knapsack); //오케이 완성~~~!!! 됐당됐당!!!!!히히히히..^ㅁ^
+        System.out.println("counter : " + counter);
     }
 
 
@@ -16,7 +16,7 @@ public class Knapsack {
     static int counter = 0;
 
     public static int knapsack(int totalWeight, int totalValue, int n){
-        if(totalWeight > capacity) return totalValue;
+        if(totalWeight > capacity) return 0;
         if(n>=weight.length) return totalValue;
         counter++;
         return maxValue = Math.max(
