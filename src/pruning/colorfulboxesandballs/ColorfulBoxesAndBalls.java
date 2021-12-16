@@ -1,4 +1,4 @@
-package pruning;
+package pruning.colorfulboxesandballs;
 
 public class ColorfulBoxesAndBalls {
     public static void main(String[] args) {

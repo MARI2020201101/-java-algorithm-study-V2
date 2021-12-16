@@ -1,4 +1,4 @@
-package dynamicprogramming;
+package dynamicprogramming.corporationsalary;
 
 public class CorporationSalary {
 

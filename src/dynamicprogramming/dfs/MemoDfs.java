@@ -1,4 +1,4 @@
-package dynamicprogramming;
+package dynamicprogramming.dfs;
 
 public class MemoDfs {
     public static void main(String[] args) {
