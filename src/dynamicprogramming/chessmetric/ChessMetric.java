@@ -4,6 +4,9 @@ public class ChessMetric {
     public static void main(String[] args) {
         int move = move(0, 2, 3, 0, 0, 0, 0);
         System.out.println(move);
+
+        int move2 = move(0, 50, 100, 0, 0, 0, 99);
+        System.out.println(move2);
     }
 
     static int max = 0;
