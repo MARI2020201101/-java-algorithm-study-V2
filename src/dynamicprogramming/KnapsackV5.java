@@ -10,7 +10,7 @@ public class KnapsackV5 {
     static int[] weight = {3,4,1,2,3};
     static int[] value = {2,3,2,3,6};
     static int capacity = 10;
-    static int memo[][] = new int[6][11];
+    static int memo[][] = new int[6][14];
 
 
     public static int knapsack(){
