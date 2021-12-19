@@ -26,7 +26,7 @@ public class ShortestPath {
                 if(cost < d[next]){ //더 나은 거리로 업데이트 한다.
                     d[next] = cost;
 
-                    if(! inQueue[next]){ //큐에 두번 넣을 필요는 없다. 
+                    if(! inQueue[next]){ //큐에 두번 넣을 필요는 없다.
                         queue.add(next);
                         inQueue[next] = true;
                     }
