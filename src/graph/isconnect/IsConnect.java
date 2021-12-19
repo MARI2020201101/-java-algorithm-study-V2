@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class IsConnect {
-    
+
     static int[][] edge; //i는 노드의 갯수, j는 엣지의 갯수, 해당 값에는 연결되어있는 다음 노드의 idx가 들어간다
     //from : 시작노드 , to : 목표노드 , v : 노드의 갯수
     public static boolean isConnect(int from, int to, int v){
