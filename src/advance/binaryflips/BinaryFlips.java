@@ -1,4 +1,4 @@
-package advance;
+package advance.binaryflips;
 
 import java.util.LinkedList;
 import java.util.Queue;
