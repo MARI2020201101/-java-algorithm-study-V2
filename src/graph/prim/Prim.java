@@ -24,7 +24,10 @@ public class Prim {
                     nowd = d[j];
                 }
             }
-            if(nowd==Integer.MAX_VALUE) return 0;
+
+
+            if(nowd==Integer.MAX_VALUE) return -1;
+
             check[now] = true;
             ret+=nowd;
 
