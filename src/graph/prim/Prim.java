@@ -21,7 +21,7 @@ public class Prim {
             for (int j = 0; j < v; j++) {
                 if(nowd > d[j] && !check[now]){
                     now = j;
-                    nowd = d[j];
+                    nowd = d[j]; //거리가 제일 작은 노드를 선택한다.
                 }
             }
 
