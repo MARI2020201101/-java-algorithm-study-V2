@@ -7,7 +7,7 @@ public class InfiniteSequenceV6 {
     }
 
     static long[] dp ;
-    
+
     public static long calc(long n, int p, int q, int x, int y){
         dp = new long[(int)n+1]; //일단 배열자체는 한번만 만들고 내부적 메소드 호출해서 떤져!!
         return recur(n,p,q,x,y);
