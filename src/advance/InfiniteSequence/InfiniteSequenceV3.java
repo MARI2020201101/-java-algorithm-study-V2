@@ -4,7 +4,6 @@ public class InfiniteSequenceV3 {
     public static void main(String[] args) {
         System.out.println(calc(10000000,2,3,10000000,10000000));
         System.out.println(calc(12,2,3,1,0));
-
     }
 
 
