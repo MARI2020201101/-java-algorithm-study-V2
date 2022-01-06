@@ -2,8 +2,8 @@ package advance.nottwo;
 
 public class NotTwo {
     public static void main(String[] args) {
-        int response = maxStones(10, 10);
-        System.out.println(response);
+        int max = maxStones(10, 10);
+        System.out.println(max);
     }
 
     public static int maxStones(int width, int height){
